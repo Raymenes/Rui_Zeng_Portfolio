@@ -1,0 +1,6 @@
+This painting application is written based on a Model-View-Controller structure provided by Sanjay Madhav with a large amount of actual code implementation done by myself. The application utilizes WX GUI Library to achieve the basic functions.
+
+Click on toolbar to choose to draw different shapes or perform operations on the shapes. Can select/deselect, move, delete, import and export images.
+
+
+

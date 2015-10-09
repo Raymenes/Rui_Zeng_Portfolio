@@ -1,0 +1,9 @@
+This is a game designed and implemented by myself using Unity3D engine. Although it is made for mobile platform, Unity also support web and pc builds.
+
+To Play:
+
+Click on 1 of the 4 shapes to select a power
+Click again to place selected shape on map
+When cat enter the shape, it will be able to do different movement such as adjusting direction, bouncing back, teleporting and attacking enemies.
+
+Enemies also move and attack in different patterns

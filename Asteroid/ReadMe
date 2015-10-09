@@ -1,0 +1,9 @@
+This game is written based on a simple game engine structure provided by Sanjay Madhav with a large amount of actual code implementation done by myself. SDL and OpenGL libraries are used to support the basic game engine functions.
+
+To Play:
+WASD : Moving
+Space Bar : Shooting
+Die when hit by asteroids, and will respawn in a few seconds
+
+
+

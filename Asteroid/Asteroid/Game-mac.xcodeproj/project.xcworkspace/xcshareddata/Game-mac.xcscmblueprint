@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "54BB1FD6DF3B61DA1868E89D46B84876A0A49978",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "54BB1FD6DF3B61DA1868E89D46B84876A0A49978" : 0,
+    "12AC9218339692C10B63CEEB1B6758AB11986087" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2F45E68A-25E9-403A-86F4-731FAEB8E687",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "54BB1FD6DF3B61DA1868E89D46B84876A0A49978" : "ITP-380-Submit",
+    "12AC9218339692C10B63CEEB1B6758AB11986087" : "CS380-Repo"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Game-mac",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "lab2\/Game-mac.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/chalonverse\/itp380-20153.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12AC9218339692C10B63CEEB1B6758AB11986087"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/raymenes\/itp-380-20153-ruizeng.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54BB1FD6DF3B61DA1868E89D46B84876A0A49978"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+This is a projectile (cat) shooting game developed by me, Roy Niu (programmer) and Matthew Shin (artist).
+
+I implemented the cat shooting, environment and enemy instantiating and game state tracking part.
+
+How To Play:
+
+Hold down mouse to shoot
+Attach onto the blue pillars
+Jump onto the while squares(ghosts) to kill them
+Killed by ghost if gets hit by side
+Sit on yellow rectangles(humen) to cheer them up (restore their health), and prevent them from getting desperate due to the influence of the ghost.

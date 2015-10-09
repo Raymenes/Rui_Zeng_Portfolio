@@ -1,0 +1,11 @@
+This is a 2-player puzzle game designed and implemented by myself using Unity3D engine. Although it is made for mobile platform, Unity also support web and pc builds.
+
+To Play:
+Click on menu item to choose game mode and read tutorial
+The small shapes on the player’s movable squares indicates the next bullet player can shoot.
+Only bullet matching the shapes in the middle of the map can get through and attack the other player (or AI)
+Player can use ‘up’ and ‘down’ to move, ‘back’ to switch bullet and ‘forward’ to shoot
+
+Control:
+Player1 = WASD
+Player2 = IJKL

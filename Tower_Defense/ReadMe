@@ -1,0 +1,12 @@
+This game is written based on a simple game engine structure provided by Sanjay Madhav with a large amount of actual code implementation done by myself. SDL and OpenGL libraries are used to support the basic game engine functions.
+
+To Play:
+Click : Select Tile
+Num 1 : Build Frost Tower on Selected Tile
+Num 2 : Build Cannon Tower on Selected Tile
+
+Each time enemy getting into the base would deduct health. Game over when health reaches 0.
+Each time killing an enemy would add money. Building towers would cost money.
+
+
+

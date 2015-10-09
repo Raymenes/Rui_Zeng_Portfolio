@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2F45E68A-25E9-403A-86F4-731FAEB8E687</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Game-mac</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>12AC9218339692C10B63CEEB1B6758AB11986087</key>
+		<string>https://bitbucket.org/chalonverse/itp380-20153.git</string>
+		<key>54BB1FD6DF3B61DA1868E89D46B84876A0A49978</key>
+		<string>https://bitbucket.org/raymenes/itp-380-20153-ruizeng.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>lab2/Game-mac.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>12AC9218339692C10B63CEEB1B6758AB11986087</key>
+		<string>../../../../CS380-Repo</string>
+		<key>54BB1FD6DF3B61DA1868E89D46B84876A0A49978</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/raymenes/itp-380-20153-ruizeng.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>54BB1FD6DF3B61DA1868E89D46B84876A0A49978</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>12AC9218339692C10B63CEEB1B6758AB11986087</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CS380-Repo</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>54BB1FD6DF3B61DA1868E89D46B84876A0A49978</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ITP-380-Submit</string>
+		</dict>
+	</array>
+</dict>
+</plist>
