@@ -96,68 +96,17 @@ public class PlayerMovement : MonoBehaviour {
 	
 	void Update () 
 	{
-		if (gameObject.name == "Player1")
-		{
-			transform.GetComponent<Renderer>().material.color = GameManager.player1Color;
-		}
-		if (gameObject.name == "Player2")
-		{
-			transform.GetComponent<Renderer>().material.color = GameManager.player2Color;
-		}
 
 		if (Input.GetKeyDown(DownKey))
-		{
-			if (nowPosition > 0)
-			{
-				nowPosition -= 1;
-			}
-		}
+		{OnMoveDown();}
 		if (Input.GetKeyDown(UpKey))
-		{
-			if (nowPosition < 4)
-			{
-				nowPosition += 1;
-			}
-		}
-		//print("now position is " +nowPosition);
+		{OnMoveUp();}
 		if (Input.GetKeyDown(PickKey))
-		{
-			if (nowPosition == bulletSquareIndex)
-			{
-				bulletType = "square";
-				bullet = squareBullet;
-				bulletIndicator.GetComponent<BulletIndicatorBehavior>().SetBulletType("square");
-			}
-			if (nowPosition == bulletStarIndex)
-			{
-				bulletType = "star";
-				bullet = starBullet;
-				bulletIndicator.GetComponent<BulletIndicatorBehavior>().SetBulletType("star");
-
-			}
-			if (nowPosition == bulletCircleIndex)
-			{
-				bulletType = "circle";
-				bullet = circleBullet;
-				bulletIndicator.GetComponent<BulletIndicatorBehavior>().SetBulletType("circle");
-			}
-
-		}
+		{OnPick();}
+		if (Input.GetKeyDown(FireKey))
+		{OnFire();}
 		
 		transform.position = positionArray[nowPosition];
-
-		if (Input.GetKeyDown(FireKey))
-		{
-			GetComponent<AudioSource>().Play();
-			GameObject myBullet;
-			myBullet = Instantiate(bullet, transform.position+bulletAdjustMent, Quaternion.identity)
-						as GameObject;
-			myBullet.name = bulletType;
-			myBullet.GetComponent<BulletMovement>().SetBulletIdentity(FireKey);
-			myBullet.GetComponent<BulletMovement>().SetBulletShape(bulletType);
-		}
-
-
 	}
 
 	public void SetPlayerBulletSelection (int starPosition, int squarePosition, int circlePosition)
@@ -165,5 +114,55 @@ public class PlayerMovement : MonoBehaviour {
 		bulletStarIndex = starPosition;
 		bulletSquareIndex = squarePosition;
 		bulletCircleIndex = circlePosition;
+	}
+
+	public void OnPick()
+	{
+		if (nowPosition == bulletSquareIndex)
+		{
+			bulletType = "square";
+			bullet = squareBullet;
+			bulletIndicator.GetComponent<BulletIndicatorBehavior>().SetBulletType("square");
+		}
+		if (nowPosition == bulletStarIndex)
+		{
+			bulletType = "star";
+			bullet = starBullet;
+			bulletIndicator.GetComponent<BulletIndicatorBehavior>().SetBulletType("star");
+			
+		}
+		if (nowPosition == bulletCircleIndex)
+		{
+			bulletType = "circle";
+			bullet = circleBullet;
+			bulletIndicator.GetComponent<BulletIndicatorBehavior>().SetBulletType("circle");
+		}
+	}
+
+	public void OnFire()
+	{
+		GetComponent<AudioSource>().Play();
+		GameObject myBullet;
+		myBullet = Instantiate(bullet, transform.position+bulletAdjustMent, Quaternion.identity)
+			as GameObject;
+		myBullet.name = bulletType;
+		myBullet.GetComponent<BulletMovement>().SetBulletIdentity(FireKey);
+		myBullet.GetComponent<BulletMovement>().SetBulletShape(bulletType);
+	}
+
+	public void OnMoveUp()
+	{
+		if (nowPosition < 4)
+		{
+			nowPosition += 1;
+		}
+	}
+
+	public void OnMoveDown()
+	{
+		if (nowPosition > 0)
+		{
+			nowPosition -= 1;
+		}
 	}
 }

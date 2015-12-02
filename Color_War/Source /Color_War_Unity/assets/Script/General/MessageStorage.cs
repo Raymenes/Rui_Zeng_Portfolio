@@ -12,8 +12,8 @@ public class MessageStorage : MonoBehaviour {
 
 	void Start () 
 	{
-		player1Name = "Player 1";
-		player2Name = "Player 2";
+		player1Name = "Player Red";
+		player2Name = "Player Blue";
 	}
 	void Awake() 
 	{
@@ -29,13 +29,13 @@ public class MessageStorage : MonoBehaviour {
 			//Application.LoadLevel("Menu");
 		}
 	}
-	public void SetPlayer1Name (string passIn)
+	public void SetPlayer1Name (string name)
 	{
-		player1Name = passIn;
+		player1Name = name;
 	}
-	public void SetPlayer2Name (string passIn)
+	public void SetPlayer2Name (string name)
 	{
-		player2Name = passIn;
+		player2Name = name;
 	}
 	public string GetPlayer1Name ()
 	{
