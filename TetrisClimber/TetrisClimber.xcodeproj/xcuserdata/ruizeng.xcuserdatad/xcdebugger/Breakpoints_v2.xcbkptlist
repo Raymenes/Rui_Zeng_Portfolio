@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/TetrisClimber/Tetromino.cpp"
+            timestampString = "471251599.245821"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "ATetromino::MoveHelper(const Tetris_Direction&amp; dir)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ATetromino::CanMove(FTetrisCoord const&amp;)"
+                  moduleName = "UE4Editor-TetrisClimber-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ruizeng/Desktop/OneDrive/VIDEOGAME/CS/CS-380/TetrisClimber/TetrisClimber/Source/TetrisClimber/Tetromino.cpp"
+                  timestampString = "470473123.042676"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "259"
+                  endingLineNumber = "259"
+                  offsetFromSymbolStart = "403">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ATetromino::CanMove(FTetrisCoord const&amp;)"
+                  moduleName = "UE4Editor-TetrisClimber-9988-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ruizeng/Desktop/OneDrive/VIDEOGAME/CS/CS-380/TetrisClimber/TetrisClimber/Source/TetrisClimber/Tetromino.cpp"
+                  timestampString = "470473145.607963"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "259"
+                  endingLineNumber = "259"
+                  offsetFromSymbolStart = "403">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/TetrisClimber/Tetromino.cpp"
+            timestampString = "471310203.555034"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "357"
+            endingLineNumber = "357"
+            landmarkName = "ATetromino::SetManager(class ATetrisManager *m)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
